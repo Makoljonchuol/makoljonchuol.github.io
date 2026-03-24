@@ -134,13 +134,15 @@ section h4 {
     margin: 0;
 }
 
-/* Focus Section */
-#focus .focus-list {
+/* Focus + Thinking Sections */
+#focus .focus-list,
+#thinking .focus-list {
     list-style: none;
     font-size: 16px;
 }
 
-#focus .focus-list li {
+#focus .focus-list li,
+#thinking .focus-list li {
     padding: 14px 0;
     color: #333;
     border-bottom: 1px solid #f0f0f0;
@@ -148,14 +150,16 @@ section h4 {
     padding-left: 20px;
 }
 
-#focus .focus-list li:before {
+#focus .focus-list li:before,
+#thinking .focus-list li:before {
     content: "•";
     position: absolute;
     left: 0;
     color: #333;
 }
 
-#focus .focus-list li:last-child {
+#focus .focus-list li:last-child,
+#thinking .focus-list li:last-child {
     border-bottom: none;
 }
 
@@ -290,26 +294,6 @@ footer h2 {
 .contact-links .separator {
     margin: 0 16px;
     color: #999;
-}
-
-/* ── Thinking section: reuse focus-list style ── */
-#thinking .focus-list li {
-    padding: 14px 0;
-    color: #333;
-    border-bottom: 1px solid #f0f0f0;
-    position: relative;
-    padding-left: 20px;
-}
-
-#thinking .focus-list li:before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: #333;
-}
-
-#thinking .focus-list li:last-child {
-    border-bottom: none;
 }
 
 /* ── Large screens: 1280px+ (MacBook Pro, external monitors) ── */
